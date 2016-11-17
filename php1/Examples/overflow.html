@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Overflow</title>
+    <style type="text/css">
+        .content{
+            width:100px;
+            height:100px;
+            overflow: auto;
+            resize: both;
+            border:dashed 5px red;
+            padding:3px;
+            background-image: url("img/android.png");
+            background-clip: border-box;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        ul li{
+            font-size:larger;
+            font-family: 'Courier New' , Monospace;
+        }
+        ul li:nth-child(even){
+            color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <ul>
+            <li>Hello,world!</li>
+            <li>Hello,Java!</li>
+            <li>Hello,J2EE!</li>
+            <li>Hello,Android!</li>
+            <li>Hello,PHP!</li>
+        </ul>
+    </div>
+</body>
+</html>

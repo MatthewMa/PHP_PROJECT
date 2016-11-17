@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <style type="text/css">
+        .list1{
+            list-style-type: upper-roman;
+            start:1;
+            list-style-position: inside;
+            background-color: #0f97ed;
+            
+        }
+        .list1>li:nth-child(even){
+            background-color: #00CC66;
+        }
+        .list2{
+            list-style-image: url("img/fl.gif");
+            list-style-position: outside;
+            background-color: #0f97ed;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="list1">
+        <li>Hello,world!</li>
+        <li>Hello,Java!</li>
+        <li>Hello Android!</li>
+    </ul>
+    <ol class="list2">
+        <li>Honglou Meng</li>
+        <li>Shuhu Zhuan</li>
+        <li>San Guo Yan Yi</li>
+    </ol>
+</body>
+</html>

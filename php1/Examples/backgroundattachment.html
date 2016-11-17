@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background-Attachment</title>
+    <style type="text/css">
+        body{
+            background-image: url("img/android.png");
+            background-repeat: repeat;
+            background-attachment: fixed;
+        }
+        ol li{
+            font-family: "微软雅黑", Tahoma, Arial;
+            font-weight: bolder;
+            color: #f1bfc0;
+            font-size: xx-large;
+            text-align: center;
+            text-decoration: underline;
+        }
+        ol li:nth-child(even){
+            background-color: #0000EE;
+        }
+        ol li:hover{
+            background-color: #5C5C8D;
+        }
+    </style>
+</head>
+<body>
+    <ol start="1">
+        <script type="text/javascript">
+            for(var i=0;i<15;i++){
+                document.writeln("<li>Number:"+(i+1)+"</li>")
+            }
+        </script>
+    </ol>
+</body>
+</html>

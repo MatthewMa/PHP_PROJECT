@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BoxFlex</title>
+    <style type="text/css">
+        #container{
+            display: box;
+            display:-moz-box;
+            display: -webkit-box;
+            -moz-box-orient: horizontal;
+            -webkit-box-orient: horizontal;
+            width:80%;
+            text-align: center;
+            box-shadow: 2px 2px 3px red;
+            border:1px dashed grey;
+        }
+        #container>div{
+            border:1px solid #aaf;
+            box-sizing:border-box;
+            border-radius: 3px;
+            background-color: #0f97ed;
+            -moz-box-flex: 1;
+            -webkit-box-flex: 1;
+        }
+        #container>div:hover{
+            background-color: #0000EE;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>Column 1</div>
+        <div>Column 2</div>
+        <div>Column 3</div>
+    </div>
+</body>
+</html>

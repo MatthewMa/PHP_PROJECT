@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MusicPlayer</title>
+</head>
+<body>
+    <select id="sel_mode">
+        <option value="sequence">Sequence</option>
+        <option value="random">Random</option>
+    </select><br>
+    <audio controls id="player">
+        Your Browser cannot support audio!
+    </audio>
+</body>
+<script type="text/javascript">
+    var musics =[
+            "sound/arrow.ogg",
+            "sound/bomb.ogg",
+            "sound/love.ogg",
+            "sound/song.ogg",
+            "sound/demo1.ogg"
+    ];
+    var index=0;
+    var playtype;
+    window.onload=function () {
+        var player=document.getElementById('player');
+        var sel_mode=document.getElementById('sel_mode');
+        sel_mode.onChange=function () {
+            playtype=sel_mode.value;
+        }
+        player.src=musics[index];
+        player.onended=function () {
+            if(playtype=="random"){
+                var ran=Math.floor(Math.random()*musics.length);
+                player.src=musics[ran];
+            }else{
+                player.src=musics[index++%musics.length];
+            }
+            player.play();
+        }
+    }
+</script>
+</html>

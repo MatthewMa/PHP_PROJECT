@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>Draggable DIV</title>
+    <script type="javascript">
+        var source=document.getElementById('source');
+        source.ondragstart=function (evt) {
+            evt.dataTransfer.setData("text/plain","www.baidu.com");
+        }
+        document.ondragover=function (evt) {
+            return false;
+        }
+        document.ondrop=function (evt) {
+            source.style.position="absolute";
+            source.style.left=evt.pageX+"px";
+            source.style.top=evt.pageY+"px";
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <div id="source" style="width: 600px;height: 500px;background-color: #0f97ed;border: 2px solid black;" draggable="true">
+        Crazy Java
+    </div>
+</body>
+</html>

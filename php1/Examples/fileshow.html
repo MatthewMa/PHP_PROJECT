@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FileShow</title>
+    <script type="text/javascript">
+        var showDetails=function(){
+            var img=document.getElementById('img');
+            var fileinfo=document.getElementById('fileinfo');
+            var fileList=img.files;
+            var str="";
+            for(var i=0;i<fileList.length;i++){
+                var file=fileList[i];
+                str+="Number "+(i+1)+" File: File Name:"+file.name+",File Type:"+file.type+",File Size:"+file.size;
+            }
+            fileinfo.innerHTML=str;
+        }
+    </script>
+</head>
+<body>
+    <form action="multifilehandler.php" method="post" enctype="multipart/form-data">
+        <input type="file" id="img" name="file" accept="image/*" multiple size="3">
+        <input type="button" id="btn" name="btn" value="Show File" onclick="showDetails();"/><br>
+        <input type="submit" value="Submit"/>
+    </form>
+    <div id="fileinfo"></div>
+</body>
+</html>

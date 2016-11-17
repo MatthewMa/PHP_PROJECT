@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ValidityCheck</title>
+    <script type="text/javascript">
+        var check=function () {
+            return commonCheck("birthday","Birthday","is not valid")&&commonCheck("email","Email","is not valid");
+        }
+        var commonCheck=function (field,fieldName,tip) {
+            var ele=document.getElementById(field);
+            if(ele.value.trim()==""){
+                alert(fieldName+"cannot be empty!");
+                return false;
+            }else if(!ele.checkValidity()){
+                alert(fieldName+tip);
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form method="post" action="www.baidu.com">
+        Birthday:<input name="birthday" id="birthday" type="date" required><br>
+        Email:<input name="email" id="email" type="email" required><br>
+        <input type="submit" value="submit" onclick="return check();">
+    </form>
+</body>
+</html>

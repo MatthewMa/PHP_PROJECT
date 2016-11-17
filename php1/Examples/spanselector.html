@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SpanSelector</title>
+    <style type="text/css">
+        div span{
+            display: block;
+            border:1px solid blue;
+        }
+        span:nth-of-type(even){
+            background-color: #00CC66;
+            color: #3b3b1f;
+            font-weight: bold;
+        }
+        span:hover{
+            background-color: #0f97ed;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span id="java">疯狂Java讲义</span>
+    <span id="javaee">轻量级Java EE企业应用实战</span>
+    <span id="ajax">疯狂Ajax讲义</span>
+    <span id="xml">疯狂XML讲义</span>
+    <span id="ejb">经典Java EE企业应用实战</span>
+    <span id="android">疯狂Android讲义</span>
+    <span>疯狂Java联盟</span>
+    <div id="struts">Struts 2.1权威指南</div>
+</div>
+</body>
+</html>

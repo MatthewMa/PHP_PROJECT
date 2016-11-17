@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextOverflow</title>
+    <style type="text/css">
+        #txt{
+            font-size: larger;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: "微软雅黑", Tahoma, Arial;
+            text-decoration: line-through;
+            text-indent: 20pt;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 100px;height: 200px">
+        <p id="txt">Hello,android!Hello,android!Hello,android!Hello,android!Hello,android!</p>
+    </div>
+</body>
+</html>

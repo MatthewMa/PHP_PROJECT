@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select</title>
+</head>
+<body>
+    <dl>
+        <dt>
+        Java Books:
+        <dd>Java Basics</dd>
+        <dd>Java Enhancement</dd>
+        <dd>Java Improved</dd>
+        </dt>
+        <dt>
+            C# Books:
+        <dd>C# Basics</dd>
+        <dd>C# Enhancement</dd>
+        <dd>C# Improved</dd>
+        </dt>
+    </dl><hr>
+    <form method="post" action="www.baidu.com" id="form">
+        <select id="favor" name="favor">
+            <option value="football">Football</option>
+            <option value="basketball" selected>Basketball</option>
+            <option value="baseball">Baseball</option>
+            <option value="volleyball">Volleyball</option>
+        </select><br>
+        <select id="books" name="books" multiple size="4">
+            <optgroup label="Computer">
+                <option value="java">Crazy Java</option>
+                <option value="c#">Crazy C#</option>
+                <option value="php">Crazy PHP</option>
+                <option value="go">Crazy Go</option>
+            </optgroup>
+            <optgroup label="English">
+                <option value="listen">Crazy Listen</option>
+                <option value="speak">Crazy Speak</option>
+                <option value="read">Crazy Read</option>
+                <option value="write">Crazy Write</option>
+            </optgroup>
+        </select><br>
+        Sports:<input type="text" list="sport" name="input_sport">
+    </form>
+    <input type="text" form="form" formmethod="post" name="username" id="username" placeholder="Please input your name:"><br>
+    <datalist id="sport">
+        <option value="swim">Swim</option>
+        <option value="run">Run</option>
+        <option value="read">Read</option>
+        <option value="write">Write</option>
+    </datalist>
+</body>
+</html>

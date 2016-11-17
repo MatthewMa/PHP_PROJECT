@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VideoTime</title>
+</head>
+<body>
+    <h1>Video Player</h1>
+    <video src="img/movie_h264.mp4" controls id="player" autoplay>
+        Your browser cannot support video tag!
+    </video><br>
+    <button id="btn_play">Pause</button>&nbsp;&nbsp;<span id="detail" style="color: #5C5C8D"></span>Seconds
+</body>
+<script type="text/javascript">
+    var player=document.getElementById('player');
+    var btn_play=document.getElementById('btn_play');
+    var detail=document.getElementById('detail');
+    btn_play.onclick=function () {
+        if(player.paused){
+            player.play();
+            btn_play.innerHTML="Pause";
+        }else{
+            player.pause();
+            btn_play.innerHTML="Play";
+        }
+    }
+    player.ontimeupdate=function () {
+        detail.innerHTML=player.currentTime+"/"+player.duration;
+    }
+</script>
+</html>

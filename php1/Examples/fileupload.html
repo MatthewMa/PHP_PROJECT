@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FileUpload</title>
+</head>
+<body>
+    <strong>Scan File:</strong><input type="file" id="file"><br>
+    <div id="content"></div>
+    <strong>File Progress:</strong><progress id="filepro"></progress><br>
+    <button onclick="readBinaryText();">Show Binary Text</button>
+</body>
+<script type="text/javascript">
+    var reader=null;
+    if(FileReader){
+        reader=new FileReader();
+    }else{
+        alert("Your browser does not support file reader!");
+    }
+    var readBinaryText=function () {
+        var content=document.getElementById('content');
+        var files=document.getElementById('file').files;
+        var filepro=document.getElementById('filepro');
+        filepro.max=files[0].size;
+        reader.readAsBinaryString(files[0]);
+        reader.onprogress=function (evt) {
+            filepro.value=evt.loaded;
+        }
+
+    }
+
+</script>
+</html>

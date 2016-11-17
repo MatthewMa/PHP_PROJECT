@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChangeValue</title>
+</head>
+<body>
+改变第<input id="row" type="text" size="2" />行，
+第<input id="cel" type="text" size="2" />列的值为:
+<input id="celVal" type="text" size="16" /><br />
+<input id="chg" type="button" value="改变" onclick="change();" />
+<table id="d" border="1">
+    <tr>
+        <td>疯狂Java讲义</td>
+        <td>轻量级Java EE企业应用实战</td>
+    </tr>
+    <tr>
+        <td>疯狂Ajax讲义</td>
+        <td>经典Java EE企业应用实战</td>
+    </tr>
+    <tr>
+        <td>疯狂XML讲义</td>
+        <td>疯狂Android讲义</td>
+    </tr>
+</table>
+</body>
+<script type="text/javascript">
+    var row=document.getElementById('row');
+    var cel=document.getElementById('cel');
+    var celval=document.getElementById('celVal');
+    var table=document.getElementById('d');
+    var change=function () {
+        var row_val=row.value;
+        var cel_val=cel.value;
+        var changeval=celval.value;
+        if(isNaN(parseInt(row_val))){
+            alert("Row valus is not a number!");
+            return false;
+        }
+        if(isNaN(parseInt(cel_val))){
+            alert("Cel valus is not a number!");
+            return false;
+        }
+        if(row_val>table.rows.length||cel_val>table.rows[0].cells.length){
+            alert("Row or cell number out of index!");
+            return false;
+        }
+        table.rows.item(row_val-1).cells.item(cel_val-1).innerHTML=changeval;
+    }
+</script>
+</html>

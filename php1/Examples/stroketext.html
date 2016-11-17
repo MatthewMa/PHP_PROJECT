@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StrokeText</title>
+
+</head>
+<body>
+    <h1>StrokeText</h1><br>
+    <canvas id="mc" width="600px" height="280px"></canvas>
+</body>
+<script type="text/javascript">
+    var canvas=document.getElementById('mc');
+    var context=canvas.getContext('2d');
+    context.fillStyle="#f00";
+    context.font="italic 50px 隶书";
+    context.fillText("Hello,Java!",50,50);
+    context.strokeStyle="#0f0";
+    context.strokeText("I am Android",200,150);
+</script>
+
+</html>

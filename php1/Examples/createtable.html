@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CreateTable</title>
+    <style type="text/css">
+        .table{
+            border:2px solid blue;
+            width: 600px;
+        }
+    </style>
+</head>
+<body id="body">
+</body>
+<script type="text/javascript">
+    var body=document.getElementById('body');
+    var t=document.createElement('table');
+    t.className="table";
+    t.rules="rows";
+    for(var i=0;i<5;i++){
+        var r=t.insertRow(i);
+        for(var j=0;j<4;j++){
+            var cel=r.insertCell(j);
+            cel.innerHTML="Row:"+(i+1)+" Cell:"+(j+1);
+        }
+    }
+    body.appendChild(t);
+</script>
+</html>

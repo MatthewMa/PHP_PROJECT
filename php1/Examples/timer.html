@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <style type="text/css">
+        #timer{
+            text-decoration: underline;
+            color: skyblue;
+            font-family: 'Microsoft Sans Serif' , Tahoma, Arial, Verdana, Sans-Serif;
+            font-size:larger;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body onload="settime()">
+    <span id="timer"></span>
+</body>
+<script type="text/javascript">
+    var timer=document.getElementById('timer');
+    var currtime=new Date().getTime();
+    var interval;
+    var settime=function () {
+        var localtime=new Date().toLocaleString();
+        timer.innerHTML=localtime;
+        if(new Date().getTime()-currtime>60*1000){
+            clearInterval(interval);
+        }
+    }
+    interval=window.setInterval("settime()",1000);
+</script>
+</html>

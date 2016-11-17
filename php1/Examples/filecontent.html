@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FileContent</title>
+    <script type="text/javascript">
+        var reader=null;
+        if(FileReader){
+            reader=new FileReader();
+        }else{
+            alert("Your scanner cannot support filereader!");
+        }
+        var readText=function () {
+            if(/text\/\w+/.test(document.getElementById('file1').files[0].type)){
+                reader.readAsText(document.getElementById('file1').files[0],"UTF-8");
+                reader.onload=function () {
+                    document.getElementById('result').innerHTML=reader.result;
+                }
+            }else{
+                alert("Your file is not text file!");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    Scan files:<input type="file" id="file1"/><br>
+    <div id="result"></div>
+    <input type="button" value="读取文本文件" onclick="readText();"/><br/>
+</body>
+</html>

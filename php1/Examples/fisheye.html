@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FishEye</title>
+    <style type="text/css">
+        a:link{
+            text-decoration: none;
+        }
+        #container>a{
+            display: inline-block;
+            width:100px;
+            background-color:#0f97ed;
+            border-radius: 4px;
+            border:1px solid black;
+        }
+        #container>a:hover{
+            -webkit-animation-name: 'fisheye';
+            -moz-animation-name: 'fisheye';
+            -o-animation-name: 'fisheye';
+            animation-name: 'fisheye';
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-iteration-count: infinite;
+            -o-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            -webkit-animation-duration: 4s;
+            -moz-animation-duration: 4s;
+            -o-animation-duration: 4s;
+            animation-duration: 4s;
+        }
+        @-webkit-keyframes 'fisheye' {
+            0%{
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                -ms-transform: scale(1);
+                -o-transform: scale(1);
+                transform: scale(1);
+                background-color: #0f97ed;
+                border-radius: 10px;
+            }
+            40%{
+                -webkit-transform: scale(1.5);
+                -moz-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                -o-transform: scale(1.5);
+                transform: scale(1.5);
+                background-color: #00ff00;
+                border-radius: 10px;
+            }
+            100%{
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                -ms-transform: scale(1);
+                -o-transform: scale(1);
+                transform: scale(1);
+                background-color: #0f97ed;
+                border-radius: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <a href="http://www.crazyit.org" alt="crazyit">疯狂Java联盟</a>
+        <a href="http://www.fkjava.org" alt="fkjava">疯狂软件教育</a>
+        <a href="http://www.crazyit.org" alt="fkjava">关于我们</a>
+        <a href="http://www.fkjava.org" alt="fkjava">疯狂成员</a>
+    </div>
+</body>
+<script type="text/javascript">
+    var str="Hello,world! I am 321 and 213";
+    var matches=str.match(/\d/g);
+    alert(matches);
+</script>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id = "d">
+    <li>疯狂Java讲义</li>
+</ul>
+</body>
+<script type="text/javascript">
+    var d=document.getElementById('d');
+    var ref=d.firstChild.nextSibling;
+    var nchild=ref.cloneNode(false);
+    nchild.innerHTML="Crazy Anadroid"
+    d.insertBefore(nchild,ref);
+</script>
+</html>

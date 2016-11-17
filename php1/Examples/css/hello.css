@@ -1,0 +1,13 @@
+table{
+    background-color: #0f97ed;
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+}
+
+td{
+    font-family: "微软雅黑", Tahoma, Arial;
+    color: #3f2d2d;
+    font-size: larger;
+    text-shadow: -8px 6px 2px #333;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ImageCanvas</title>
+</head>
+<body>
+    <canvas id="mc" width="520px" height="320px"></canvas>
+</body>
+<script type="text/javascript">
+    var context=document.getElementById('mc').getContext('2d');
+    var image=new Image();
+    image.src='img/android.png';
+    image.onload=function(){
+        context.drawImage(image,50,50,300,250);
+    }
+</script>
+</html>

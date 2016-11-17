@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOMTree</title>
+    <style type="text/css">
+        #ol{
+            list-style-type: lower-roman;
+            list-style-position: inside;
+            background-color: #0f97ed;
+        }
+        #stu_table{
+            border:1px solid blue;
+            border-collapse: separate;
+            box-shadow: blue;
+            border-radius: 3px;
+        }
+        #stu_show{
+            background-color: #0f97ed;
+            border:2px dashed red;
+            width: 300px;
+            height: 300px;
+            text-indent: 5px;
+            color: #000;
+            font-family: 'Microsoft Sans Serif' , Arial, Helvetica, Verdana;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #stu_show:first-letter{
+            font-size: 40px;
+            font-weight: bolder;
+            font-family: "微软雅黑", Tahoma, Arial;
+            color:rgba(0,255,0,1);
+        }
+    </style>
+</head>
+<body>
+    <ol id="ol" start="1">
+        <li id="java">Crazy Java</li>
+        <li id="j2ee">Crazy J2EE</li>
+        <li id="android">Crazy Android</li>
+        <li id="html">Crazy HTML</li>
+        <li id="ajax">Crazy AJAX</li>
+    </ol><br>
+    <form id="stuinfo" action="DOMTree.html" method="post" target="_self">
+        <table id="stu_table">
+            <caption><h1>Student Info</h1></caption>
+            <tr><td>Student Name:</td><td><input type="text" name="stuname" required maxlength="20" minlength="8"/></td></tr>
+            <tr><td>Student Number:</td><td><input type="number" name="stunum" required maxlength="15" minlength="8"></td></tr>
+            <tr><td>Student Gender:</td><td><select required name="stugender"><option value="male">Male</option>&nbsp;&nbsp;<option>Female</option></select> </td></tr>
+            <tr><td>Student Department:</td><td><input type="radio" required name="studepartment" value="lecture">Lecture&nbsp;&nbsp;
+                <input type="radio" required name="studepartment" value="Math">Math&nbsp;&nbsp;<input type="radio" required name="studepartment" value="other" checked>Other</td></tr>
+            <tr><td>Favorite Books:</td><td><input type="checkbox" name="stubook" value="crazyjava">Crazy Java<br><input type="checkbox" name="stubook" value="crazyandroid">Crazy Android</td></tr>
+            <tr><td></td><td><input type="checkbox" name="stubook" value="crazyhtml">Crazy Html<br><input type="checkbox" name="stubook" value="crazyajax">Crazy Ajax</td></tr>
+            <tr><td align="right"><input type="submit" value="Submit"/> </td><td><input type="reset" value="Reset"></td></tr>
+        </table>
+    </form>
+        <div id="stu_show">No Student Info Now...</div>
+        <button onclick="show_info()">Show StuInfo</button>
+
+
+</body>
+<script type="text/javascript">
+    var tar=document.getElementById('android');
+    document.writeln(tar.parentNode.firstChild.nextSibling.nextSibling.nextSibling.innerHTML);
+    var stuform=document.getElementById('stuinfo');
+    var stu_show=document.getElementById('stu_show');
+    var show_info=function () {
+        stu_show.innerHTML="Student Name:"+stuform.elements['stuname'].value+"<br>"+"Student Number:"+stuform.elements['stunum'].value+"<br>"+
+        "Student Gender:"+stuform.elements['stugender'].value+"<br>Student Department:"+stuform.elements['studepartment'].value;
+    }
+    var stu_table=document.getElementById('stu_table');
+    alert(stu_table.rows[0].cells[0].innerHTML);
+    var ol=document.getElementById('ol');
+    alert(ol.childNodes[1].innerHTML);
+</script>
+</html>

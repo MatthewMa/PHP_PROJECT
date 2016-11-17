@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector</title>
+    <style type="text/css">
+        div>div{
+            counter-increment: mycounter;
+        }
+        div>div:before{
+            content: counter(mycounter,lower-greek) '.';
+            color: #00ff00;
+            font-family: "微软雅黑", Tahoma, Arial;
+            font-size: larger;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>Crazy Java</div>
+        <div>Crazy J2EE</div>
+        <div>Crazy Android</div>
+    </div>
+</body>
+</html>

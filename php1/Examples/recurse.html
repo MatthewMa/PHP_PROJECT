@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recurse</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+    /*define function class*/
+    function Person(name,age){
+        this.name=name;
+        this.age=age;
+        this.info=function () {
+            document.writeln("Name:"+this.name+"<br>");
+            document.writeln("Age:"+this.age);
+        }
+    }
+    function hello(){
+        document.writeln("Hello,world!"+"<br>");
+    }
+    var p=new Person('Matthew',27);
+    p.info();
+    var x=3;
+    alert(window.x);
+</script>
+</html>

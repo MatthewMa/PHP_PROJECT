@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Output</title>
+</head>
+<body>
+    <form method="post" action="www.baidu.com" enctype="application/x-www-form-urlencoded">
+        Please choose your color: <input type="color" name="color" id="color">&nbsp;&nbsp;<output for="color" onforminput="innerHTML=color.value;" name="a"></output><br>
+        Please select a number: <input type="range" max="100" min="0" step="5" id="range" name="range">&nbsp;&nbsp;<output for="range" onforminput="innerHTML=range.value;"
+     name="b"></output><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lilist</title>
+    <style type="text/css">
+        ol li:first-child{
+            color: #00ff00;
+            font-family: "Courier New", Courier, mono;
+            font-size: larger;
+            background-color: #00CC66;
+        }
+        ol li:nth-child(3){
+            color:#ff0000;
+            font-size: large;
+        }
+        ul li:nth-last-child(2){
+            font-family: "宋体", Verdana, Arial;
+            font-size: small;
+            color: #eeffff;
+        }
+        span:only-child{
+            font-size:xx-large;
+            font-weight: bolder;
+            font-family: "trebuchet ms", verdana, tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<ol>
+    <li>www.crazyit.org</li>
+    <li>www.fkjava.org</li>
+    <li>www.facejava.org</li>
+    <li>疯狂Java联盟</li>
+    <li>疯狂软件教育中心</li>
+</ol>
+<ul>
+    <li id="java">疯狂Java讲义</li>
+    <li id="javaee">轻量级Java EE企业应用实战</li>
+    <li id="ajax">疯狂Ajax讲义</li>
+    <li id="xml">疯狂XML讲义</li>
+    <li id="ejb">经典Java EE企业应用实战</li>
+    <li><span id="android">疯狂Android讲义</span></li>
+</ul>
+<span>疯狂Java联盟</span>
+</body>
+</html>

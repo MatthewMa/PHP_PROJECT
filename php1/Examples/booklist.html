@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookList</title>
+    <style type="text/css">
+        div>h2{
+            counter-increment: categorycounter;
+            counter-reset:bookcounter;
+        }
+        div>div{
+            counter-increment: bookcounter;
+        }
+        div>h2:before{
+            content: counter(categorycounter,georgian) '.';
+            color: #ff0000;
+            font-size:larger;
+            font-family: "微软雅黑", Tahoma, Arial;
+        }
+        div>div:before{
+            content: counter(bookcounter,lower-alpha) '.';
+            color:#00ff00;
+            font-size:medium;
+            font-family: "宋体", Verdana, Arial;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Crazy serials:</h2>
+        <div>Crazy Java</div>
+        <div>Crazy J2EE</div>
+        <div>Crazy Android</div>
+        <h2>Other books:</h2>
+        <div>Computer networks</div>
+        <div>Algorithms</div>
+        <div>C programming</div>
+    </div>
+</body>
+</html>

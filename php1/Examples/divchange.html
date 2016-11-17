@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Divchange</title>
+    <style type="text/css">
+        #target{
+            width:600px;
+            height:500px;
+            background-color: red;
+            -webkit-transition: background-color 4s linear 0s,width 4s linear 0s,height 4s linear 0s;
+            -moz-transition: background-color 4s linear 0s,width 4s linear 0s,height 4s linear 0s;
+            -ms-transition: background-color 4s linear 0s,width 4s linear 0s,height 4s linear 0s;
+            -o-transition: background-color 4s linear 0s,width 4s linear 0s,height 4s linear 0s;
+            transition: background-color 4s linear 0s,width 4s linear 0s,height 4s linear 0s;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="zoom(1.5,'blue')" style="width: 50%;text-align: center">Big</button><br>
+    <button onclick="zoom(0.5,'green')" style="width: 50%;text-align: center">Small</button><br>
+    <button onclick="zoom(1.0,'red')" style="width: 50%;text-align: center">Restore</button><br>
+    <div id="target"></div>
+</body>
+<script type="text/javascript">
+    var target=document.getElementById('target');
+    var originwidth=600;
+    var originheight=500;
+    var zoom=function (scale, color) {
+        target.style.width=originwidth*scale+"px";
+        target.style.height=originheight*scale+"px";
+        target.style.backgroundColor=color;
+    }
+</script>
+</html>
