@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Worker</title>
+</head>
+<body>
+    <span>All even number between 0 and 10000 is:</span><br>
+    <div id="show"></div>
+</body>
+<script type="text/javascript">
+    var show=document.getElementById('show');
+    var work=new Worker("js/oddnum.js")
+    work.onmessage=new function (evt) {
+        show.innerHTML+=evt.data+",";
+    }
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trigger</title>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btn").bind("myClick",function (event, msg1, msg2) {
+                $("#test").append("<p>"+msg1+msg2+"</p>");
+            });
+            $("#btn").trigger("myClick",new Array("Hello","Android"));
+            var arr={"Name":"Matthew","Age":27,"Gender":"M"};
+            for(var item in arr){
+                alert(arr[item]);
+            }
+        });
+    </script>
+
+</head>
+<body>
+    <button id="btn" style="background-color: #0f97ed;color: #fff;">Click me</button>
+    <div id="test"></div>
+</body>
+</html>

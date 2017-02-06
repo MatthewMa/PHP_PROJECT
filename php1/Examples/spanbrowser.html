@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event</title>
+</head>
+<body>
+    <input type="button" id="btn" value="CLick me"/>
+</body>
+<script type="text/javascript">
+    var clickHandler=function (evt) {
+        if(evt){
+            document.writeln(evt.target.value);
+        }else{
+            document.writeln(Window.event.srcElement.value);
+        }
+    }
+    document.getElementById('btn').onclick=clickHandler;
+</script>
+</html>

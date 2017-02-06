@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html manifest="index.manifest">
+<head>
+    <meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+    <title> 测试页面 </title>
+    <script type="text/javascript" src="test.js">
+    </script>
+</head>
+<body>
+<img src="logo.jpg" alt="疯狂Java联盟"/>
+<input id="bn" type="button" value="单击"/>
+</body>
+<script type="text/javascript">
+    if(navigator.onLine){
+        alert("Online!");
+    }else{
+        alert("Offline!");
+    }
+    body.addEventListener("offline",function (evt) {
+        alert("You have gone offline!");
+    },true);
+</script>
+</html>

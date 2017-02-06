@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Proporgation</title>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $msg=$("#msg");
+            $("body").bind("click",function (event) {
+                $msg.html($msg.html()+"body element has been clicked");
+            })
+            $("#content").bind("click",function (event) {
+                $msg.html($msg.html()+"div element has been clicked")
+            })
+            $("#content span").bind("click",function (event) {
+                $msg.html($msg.html()+"span element has been clicked!");
+                event.stopPropagation();
+            })
+            $("#hello").mousedown(function (event) {
+                alert(event.which);
+            });
+            $("#content span").click();
+        });
+    </script>
+</head>
+<body>
+<div id="content">
+    外层div元素
+    <span>内层span元素</span>
+    外层div元素
+</div>
+<div id="hello">Hello,world!</div>
+<div id="msg"></div>
+</body>
+</html>

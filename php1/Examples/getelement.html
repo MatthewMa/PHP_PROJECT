@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .fruit{
+            color:#00ff00;
+            text-align: left;
+            background-color: #0f97ed;
+        }
+        .another{
+            background-color: #fff;
+        }
+        #content{
+            margin:0 auto;
+            text-align: center;
+            border:1px solid black;
+            border-radius: 4px;
+            width:500px;
+            padding:0px;
+            background-color: #fff;
+        }
+        #title{
+            background-color: #0f97ed;
+            color: #fff;
+            height:20%;
+            font-size: larger;
+            font-weight: bolder;
+            font-family: "微软雅黑", Tahoma, Arial;
+            text-decoration-style: dotted;
+        }
+        #message{
+            font-family: 'Courier New' , Monospace;
+            font-size:medium;
+            text-align: justify;
+            padding:5px;
+            display: none;
+        }
+        .highlight{
+            background-color: #0f97ed;
+        }
+        #box{
+            width:300px;
+            margin:0 auto;
+            padding: 10px;
+            background-color: #0f97ed;
+            color: #fff;
+            font-size: 20px;
+            position: absolute;
+            left:500px;
+            top:500px;
+        }
+        #box:first-letter{
+            font-size: 40px;
+            color: #0f0;
+        }
+    </style>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript">
+       $(function () {
+          $("p").click(function () {
+              $(this).toggleClass("another");
+          });
+           //login hint
+           $username=$("#username");
+           $password=$("#password");
+           $username.focus(function () {
+               if($(this).val()==this.defaultValue){
+                   $(this).val("");
+               }
+           }).blur(function () {
+               if($(this).val()==""){
+                   $(this).val(this.defaultValue);
+               }
+           });
+           $btn_start=$("#btn_start");
+           $btn_start.bind("MyClick",function (event, msg1, msg2) {
+               //alert("Now click:"+event.type+msg1+msg2);
+           });
+           $btn_start.trigger("MyClick",["Crazy","Android!"]);
+           var i=0;
+           $("#title").hover(function () {
+              $(this).next().fadeIn();
+           },function () {
+               $(this).next().fadeOut();
+           });
+           /*$("#box").css("opacity","0.5");
+           $("#box").animate({left:"+=100px"},1000).animate({"top":"-=50px"},1000).animate({"opacity":"1"},1000,function (event) {
+               $(this).css({"border":"1px solid black","border-radius":"4px"});
+           });*/
+           $("#title").click(function (event) {
+              if(i==0){
+                  $(this).next().fadeTo(600,0.2);
+                  i=1;
+              }else{
+                  $(this).next().fadeTo(600,1.0);
+                  i=0;
+              }
+           });
+       });
+    </script>
+</head>
+<body>
+    <p title="选择你最喜欢的水果." class="fruit">你最喜欢的水果是?</p>
+    <ul>
+        <li title='苹果'>苹果</li>
+        <li title='橘子'>橘子</li>
+        <li title='菠萝'>菠萝</li>
+    </ul><hr>
+    <form action="#" method="post" id="user_info">
+        <input type="text" name="username" value="Please input username:" id="username"/><br/>
+        <input type="password" name="password" value="Please input password:" id="password"/><br/>
+        <input type="submit" value="SUBMIT" style="color: #fff;background-color: #0f97ed"/>
+    </form><br/>
+    <button id="btn_start">Click Me</button><br/>
+    <div id="content" align="center">
+        <div id="title">Smite Chest Introduction</div>
+        <div id="message">Treasure Chests are a feature that was introduced with SMITE Version 1.0.2247, which released on August 7, 2014. They are a way to spend Gems.png Gems and try your luck to get rare or unique Cosmetic Items that can't be obtained in any other way. The treasure chest menu can be accessed from the in-game store.
+
+            To open a chest, simply select the chest you want, and then click the "Unlock" button. Chests can only be opened with gems. Standard chests usually cost 400 Gems.png to open while Mystery-type chests tend to cost 200 Gems.png.
+
+            Each chest has a timer which shows when it will be removed from the store. Expired chests may reappear now and then for limited periods of time.
+
+            There are a few special chests exclusive to Clans that can only be unlocked with NewUI Clan Honor.png Honor. For more detailed information, please visit its main article: Clan Store</div>
+    </div><br/>
+    <div id="box" align="center">Hello,Android</div>
+</body>
+</html>

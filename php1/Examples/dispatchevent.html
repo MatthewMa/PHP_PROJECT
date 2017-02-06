@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DispatchEvent</title>
+</head>
+<body>
+    <input type="button" id="btn1" value="Button1"/><br>
+    <input type="button" id="btn2" value="Button2"/>
+</body>
+<script type="text/javascript">
+    var handler=function (evt) {
+        document.writeln(evt.currentTarget.value+" Bubble event has been triggered");
+        var e=document.createEvent("Events");
+        e.initEvent("click",true,false);
+        document.getElementById('btn2').dispatchEvent(e);
+    }
+    document.getElementById('btn1').addEventListener("click",handler,false);
+    document.getElementById('btn2').addEventListener("click",function (evt) {
+        document.writeln(evt.currentTarget.value+" Bubble event has been triggered");
+    },false);
+</script>
+</html>

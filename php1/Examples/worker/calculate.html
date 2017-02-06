@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate</title>
+    <style type="text/css">
+        #show{
+            list-style-type: lower-roman;
+        }
+    </style>
+</head>
+<body>
+起始值：<input type="text" id="start" name="start"/><br/>
+结束值：<input type="text" id="end" name="end"/><br/>
+<input type="button" value="计算" onclick="cal();"/>
+<div id="show"></div>
+</body>
+<script type="text/javascript">
+    var start=parseInt(document.getElementById('start').val);
+    var end=parseInt(document.getElementById('end').val);
+    var cal=function () {
+        var worker=new Worker("work.js");
+        var data={
+            start:start,
+            end:end
+        };
+        worker.postMessage(JSON.stringify(data));
+        worker.onmessage=function (event) {
+            //create a table
+            var div=document.getElementById('show');
+            var str=event.data;
+            //var nums=str.split(',');
+            div.innerHTML=str;
+        }
+    }
+</script>
+</html>

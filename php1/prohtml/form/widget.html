@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #form{
+            text-align: center;
+            width: 100%;
+            margin-top:150px;
+        }
+        #login{
+            border-collapse: separate;
+            background-color: #0f97ed;
+        }
+        #login td{
+            margin:5px;
+            padding:5px;
+        }
+
+
+    </style>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<div id="form">
+    <form action="widget.html" method="post" enctype="multipart/form-data">
+    <center><table id="login">
+            <colgroup>
+                <col style="width: 100px"/>
+                <col style="width: 100px" span="2"/>
+            </colgroup>
+            <caption>User Login</caption>
+            <tr>
+                <td><label for="username"><b>Username:</b></label></td>
+                <td><input type="text" name="username" id="username" autofocus></td>
+            </tr>
+            <tr>
+                <td><b>Gender:</b></td>
+                <td><input type="radio" name="gender" checked>Male &nbsp; <td><input type="radio" name="gender">Female</td></td>
+            </tr>
+            <tr>
+                <td><b>Your favorite books:</b></td>
+                <td colspan="3">
+                    <select id="books" name="books" multiple size="3">
+                        <optgroup label="Java Serials">
+                            <option value="java">Crazy Java</option>
+                            <option value="android">Crazy Android</option>
+                            <option value="J2EE">Crazy J2ee</option>
+                        </optgroup>
+                        <optgroup label="Other Books">
+                            <option value="Swift">Crazy Swift</option>
+                            <option value="AJAX">Crazy AJAX</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Education Level:</b></td>
+                <td><input type="text" list="edu_list" maxlength="20" autocomplete="on"/></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Submit" formmethod="get"></td>
+            </tr>
+            <tr>
+                <td><b>Your Lucky Number:</b></td>
+                <td><input type="range" min="0" max="9" step="1" id="lucky">&nbsp;<output for="lucky" id="lucky_out"></output> </td>
+            </tr>
+        </table></center>
+    </form>
+    <datalist id="edu_list">
+        <option name="edu_list" value="Primary School"/>
+        <option name="edu_list" value="Middle School"/>
+        <option name="edu_list" value="College Degree"/>
+        <option name="edu_list" value="Bachelor Degree"/>
+    </datalist>
+</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notification</title>
+    <style type="text/css">
+        #notification{
+            width:600px;
+            height: 500px;
+            background-color: #0f97ed;
+            box-shadow: grey;
+            border:1px solid #0f97ed;
+            margin:0 auto;
+            box-shadow: 3px 3px 2px grey;
+            border-radius: 10px;
+            padding:20px;
+            text-align: center;
+        }
+        #content:first-letter{
+            font-size:larger;
+            color:red;
+        }
+        #content{
+            width: 80%;
+            font-size: large;
+            color:black;
+            resize: none;
+        }
+        .btn{
+            text-align: right;
+            background-color: #00CC66;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #table{
+            width: 100%;
+            border-collapse: collapse;
+            border:1px solid black;
+        }
+        #table thead{
+            background-color: #0000EE;
+        }
+        #table tbody tr:hover{
+            background-color:#00ff00 ;
+        }
+        #table tbody tr:nth-child(even){
+            background-color: #2D5082;
+        }
+    </style>
+</head>
+<body>
+    <div id="notification">
+        <h2>Notification</h2>
+        <textarea id="content" rows="10" maxlength="150" required></textarea><br>
+        <button onclick="addNotification()" class="btn">Add Notification</button>
+        <button onclick="clearNotification()" class="btn">Clear Notification</button>
+        <hr style="color: darkgray;"/>
+        <table id="table" rules="cols">
+            <thead><tr><th style="width: 50%">Notification Time</th><th style="width: 50%">Content</th></tr></thead>
+            <tbody id="show"></tbody>
+        </table>
+    </div>
+</body>
+<script type="text/javascript">
+    var storage=window.localStorage;
+    var content=document.getElementById('content');
+    var loadMsg=function () {
+        var tb=document.getElementById('show');
+        tb.innerHTML="";
+        for(var i=0;i<storage.length;i++){
+            var key=storage.key(i);
+            var date=new Date();
+            date.setTime(key);
+            var cel1=date.toLocaleDateString()+"&nbsp;"+date.toLocaleTimeString();
+            var cel2=storage.getItem(key);
+            var row=tb.insertRow(i);
+            row.insertCell(0).innerHTML=cel1;
+            row.insertCell(1).innerHTML=cel2;
+        }
+    }
+    window.onload=loadMsg;
+    function addNotification(){
+        var text=content.value;
+        if(text==""){
+            alert("You type nothing!");
+            return;
+        }
+        alert(new Date().getTime());
+        localStorage.setItem(new Date().getTime(),text);
+        content.value="";
+        alert("Add successfully!");
+        loadMsg();
+    }
+    function clearNotification() {
+        localStorage.clear();
+        alert("Clear successfully!");
+        loadMsg();
+    }
+</script>
+</html>

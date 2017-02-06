@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ScriptInfo</title>
+</head>
+<body>
+    <input type="button" id="btn" value="Click Me"/>
+</body>
+<script type="text/javascript">
+    var handler=function (evt) {
+        document.writeln("Hello,android!");
+        var str="";
+        if(!evt) evt=window.event;
+        str+=("clientX:"+evt.clientX+"<br>clientY:"+evt.clientY);
+        str+=("<br>pageX:"+evt.pageX+"<br>pageY:"+evt.pageY);
+        document.writeln(str);
+    }
+    var btn=document.getElementById('btn');
+    if(document.addEventListener){
+        btn.addEventListener("click",handler);
+    }else{
+        btn.attachEvent("onclick",handler);
+    }
+</script>
+</html>

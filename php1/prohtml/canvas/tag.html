@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <!--<meta http-equiv="refresh" content="2;URL=http://www.baidu.com"/>-->
+    <meta http-equiv="content-type" charset="utf-8" content="text/html"/>
+    <style type="text/css">
+        #tb_book{
+            background-color: black;
+            border-collapse:separate;
+            border-spacing: 1px;
+        }
+        #tb_book tbody tr:nth-child(even){
+            background-color: #0f97ed;
+        }
+        #tb_book tbody tr:hover{
+            background-color: #00CC66;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload=function(){
+            var target=document.getElementById("target");
+            btn_show.onclick=function () {
+                target.hidden=!target.hidden;
+            };
+        }
+    </script>
+</head>
+<body>
+    <table id="tb_book" contenteditable="true">
+        <colgroup style="background-color: white">
+            <col style="width: 160px;">
+            <col span="2" style="width: 100px;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align: right;">Total:3 books</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Crazy Java</td>
+                <td>Li Gang</td>
+                <td>109</td>
+            </tr>
+            <tr>
+                <td>Crazy J2ee</td>
+                <td>Li Gang</td>
+                <td>89.0</td>
+            </tr>
+            <tr>
+                <td>Crazy Android</td>
+                <td>Li Gang</td>
+                <td>130.0</td>
+            </tr>
+        </tbody>
+    </table><hr>
+    <div id="target" hidden="true" style="width: 300px;vertical-align: middle">
+        Hidden Content
+    </div>
+    <button id="btn_show">Show/Hide</button><hr>
+    <textarea rows="7" maxlength="200" spellcheck="true">
+    </textarea><hr>
+    <details>
+        <summary>FU RONG Town</summary>
+        FU RONG Town is worthy watching and it is an excellent movie!
+    </details><hr>
+    <a href="http://www.fkjava.org">Crazy Software</a>
+    <img src="images/logo.jpg" alt="Crazyit!"/>
+</body>
+</html>

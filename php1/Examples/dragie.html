@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DragIE</title>
+</head>
+<body>
+    <div id="content">
+        <input type="button" id="btn" value="click">Click Me
+    </div>
+</body>
+<script type="text/javascript">
+    var content=document.getElementById('content');
+    var btn=document.getElementById('btn');
+    content.addEventListener("click",function (evt) {
+        document.writeln(evt.currentTarget+" capture event has triggered.<br>");
+    },true)
+    content.addEventListener("click",function (evt) {
+        document.writeln(evt.currentTarget+" bubble event has triggerd.<br>")
+    },false);
+</script>
+</html>
