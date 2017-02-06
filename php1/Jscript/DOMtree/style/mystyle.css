@@ -1,0 +1,12 @@
+.p{
+    color: #f00;
+    font-weight: normal;
+    text-decoration: double;
+    font-size:larger;
+}
+.p:first-letter{
+    font-size: xx-large;
+    color: #0f0;
+    font-weight: bolder;
+}
+

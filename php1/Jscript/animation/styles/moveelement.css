@@ -1,0 +1,13 @@
+.p{
+    color: #f00;
+    font-family: "微软雅黑", Tahoma, Arial;
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+}
+
+.p:first-letter{
+    font-size:xx-large;
+    color:#0f0;
+    font-weight: bolder;
+}
