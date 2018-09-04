@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'/>
+    <title>My OpenLayers Map</title>
+    <script src="../assests/OpenLayers.js"></script>
+    <script src="../assests/OpenLayers.debug.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCLBlNkUpKC3iwBdx9n3KjuEXlnWizoDAE"></script>
+    <script src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&mkt=en-us"></script>
+    <link rel="stylesheet" href="../assests/css/bootstrap.css">
+    <link rel="stylesheet" href="../assests/css/bootstrap-theme.css">
+    <script>
+        var map;
+        function init() {
+            map = new OpenLayers.Map('map_element', {});
+            var wms_layer = new OpenLayers.Layer.WMS(
+                'OpenLayers WMS',
+                'http://vmap0.tiles.osgeo.org/wms/vmap0',
+                {layers: 'basic'},
+                {}
+            );
+            var vector_layer = new OpenLayers.Layer.Vector('Basic Vector Layer', {});
+            //create data
+            var feature_data = {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "type": "Feature", "properties": {},
+                        "geometry": {"type": "Point", "coordinates": [-81, 42]}
+                    },
+                    {
+                        "type": "Feature", "properties": {},
+                        "geometry": {"type": "Point", "coordinates": [-82, 43]}
+                    },
+                    {
+                        "type": "Feature", "properties": {},
+                        "geometry": {"type": "Point", "coordinates": [-80, 41]}
+                    },
+                    {
+                        "type": "Feature", "properties": {},
+                        "geometry": {"type": "Point", "coordinates": [19, -24]}
+                    },
+                    {
+                        "type": "Feature", "properties": {},
+                        "geometry": {"type": "Point", "coordinates": [4, 42]}
+                    },
+                    {
+                        "type": "Feature", "properties": {},
+                        "geometry": {"type": "Point", "coordinates": [32, 35]}
+                    },
+                ]
+            }
+            var format_geojson = new OpenLayers.Format.GeoJSON({});
+            //Create an array of strategy objects
+            var vector_strategies = [new OpenLayers.Strategy.Cluster({distance: 42})];
+            //Create a vector layer that contains a Format, Protocol, and Strategy class
+            vector_layer = new OpenLayers.Layer.Vector('More Advanced Vector Layer', {
+                strategies: vector_strategies
+            });
+            //Load in the data
+            vector_layer.addFeatures(format_geojson.read(feature_data));
+            map.addLayers([wms_layer, vector_layer]);
+            if (!map.getCenter()) {
+                map.zoomToMaxExtent();
+            }
+        }
+
+    </script>
+</head>
+<body onload='init();'>
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <div id='map_element' style='height: 500px; width:400px;'></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My OpenLayers</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../assets/css/ol.css">
+    <link rel="stylesheet" href="../assets/css/guide_chapter2.css">
+    <script src="../assets/js/ol3-3.11.0/ol-debug.js"></script>
+    <script src="../assets/js/ol3-3.11.0/ol.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <div id="map" class="map"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" class="form-group" onclick="hideMap()" id="form_hide_map"/> Hide the map
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var layer=new ol.layer.Tile({
+        source:new ol.source.OSM({
+            url: 'http://c.tile.opencyclemap.org/cycle/3/4/2.png'
+        }),
+        opacity:0.6,
+        brightness:0.2
+    });
+    var view = new ol.View({
+        center: ol.proj.transform([-1.8118500054456526, 52.4431409750608], 'EPSG:4326', 'EPSG:3857'),
+        zoom: 6
+    });
+    var map = new ol.Map({
+        target: 'map',
+    });
+    map.addLayer(layer);
+    map.setView(view);
+    function hideMap() {
+        var form_hide_map=document.getElementById('form_hide_map');
+        layer.setVisible(!form_hide_map.checked);
+    }
+</script>
+</body>
+</html>

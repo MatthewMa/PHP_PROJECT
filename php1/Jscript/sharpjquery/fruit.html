@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>dom</title>
+    <script src="scripts/jquery.js"></script>
+    <script type="text/javascript">
+        $(function () {
+           /* var $li=$("ul li:eq(1)");
+            alert($li.text());
+            var $p=$("p[title*='水果']");
+            alert($p.attr("title"));
+           var $li_1=$("<li>鸭梨</li>");
+            var $li_2=$("<li>猕猴桃</li>")
+            var $ul=$("ul");
+            $ul.append($li_1);
+            $ul.append($li_2);
+            $("p").removeAttr("title");
+            $li=$("ul li[title*=苹]");
+            alert($li.text());
+            alert($li.attr("title"));*/
+            $username=$("#username");
+            $pwd=$("#password");
+            $username.val("Please input your username:");
+            $pwd.val("Please input your password:");
+            $username.focus(function () {
+               if($(this).val()=="Please input your username:"){
+                   $(this).val("");
+               }
+            });
+            $username.blur(function () {
+                if($(this).val()==""){
+                    $(this).val("Please input your username:");
+                }
+            });
+            $("a.tooltip").mouseover(function () {
+                this.mytitle=this.title;
+                this.title="";
+                var $div=$("<div id='tooltip'>"+this.attr("mytitle")+"</div>");
+                $("body").append($div);
+                $("#tooltip").css("top",e.pageY+"px").css("left",e.pageX+"px").show("fast");
+            }).mouseout(function () {
+                this.title=this.mytitle;
+                $("#tooltip").remove();
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+    <p title="选择你最喜欢的水果." >你最喜欢的水果是?</p>
+    <ul>
+        <li title='苹果'>苹果</li>
+        <li title='橘子'>橘子</li>
+        <li title='菠萝'>菠萝</li>
+    </ul><hr/>
+    <form action="#" method="post">
+        Username:<input type="text" name="username" id="username" required/><br>
+        Password:<input type="password" name="password" id="password" required/><br>
+        <input type="submit" value="SUBMIT"/>
+    </form><hr/>
+    <p><a href="#" class="tooltip" title="这是我的超链接提示1.">提示1.</a></p>
+    <p><a href="#" class="tooltip" title="这是我的超链接提示2.">提示2.</a></p>
+    <p><a href="#" title="这是自带提示1.">自带提示1.</a></p>
+    <p><a href="#" title="这是自带提示2.">自带提示2.</a></p>
+</body>
+</html>

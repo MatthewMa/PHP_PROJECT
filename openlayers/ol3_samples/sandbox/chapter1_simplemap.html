@@ -1,0 +1,35 @@
+<head>
+    <meta charset="UTF-8">
+    <title>My OpenLayers</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../assets/css/ol.css">
+    <script src="../assets/js/ol3-3.11.0/ol-debug.js"></script>
+    <script src="../assets/js/ol3-3.11.0/ol.js"></script>
+    <script>
+        function init() {
+            var layer=new ol.layer.Tile({
+                source:new ol.source.OSM({}),
+            });
+            var view = new ol.View({
+                center: ol.proj.transform([-1.8118500054456526, 52.4431409750608], 'EPSG:4326', 'EPSG:3857'),
+                zoom: 6
+            });
+            var map = new ol.Map({
+                target: 'map',
+            });
+            map.addLayer(layer);
+            map.setView(view);
+        }
+    </script>
+</head>
+<body onload="init()">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <div id="map" class="map"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My OpenLayers</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../assets/css/ol.css">
+    <link rel="stylesheet" href="../assets/css/guide_chapter2.css">
+    <script src="../assets/js/ol3-3.11.0/ol-debug.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <div id="map" class="map"></div>
+        </div>
+    </div>
+</div>
+<script>
+    var layer = new ol.layer.Tile({
+        source: new ol.source.Stamen({
+            layer:'toner'
+        })
+    });
+    var map = new ol.Map({
+        layers: [layer],
+        target: 'map',
+        view: new ol.View({
+            center: ol.proj.transform([-74.044683,40.689848], 'EPSG:4326', 'EPSG:3857'),
+            zoom: 13
+        })
+    });
+    /*
+     osm.setVisible(false);
+     osm.setVisible(true);
+     */
+</script>
+</body>
+</html>

@@ -27,3 +27,4 @@ closedir($file_handler);
 echo "<strong>".$path."</strong> Directory has ". $num."Files!";
 
 
+

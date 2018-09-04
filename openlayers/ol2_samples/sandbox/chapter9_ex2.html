@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'/>
+    <title>My OpenLayers Map</title>
+    <script src="../assests/OpenLayers.js"></script>
+    <script src="../assests/OpenLayers.debug.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCLBlNkUpKC3iwBdx9n3KjuEXlnWizoDAE"></script>
+    <script src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.2&mkt=en-us"></script>
+    <link rel="stylesheet" href="../assests/css/bootstrap.css">
+    <link rel="stylesheet" href="../assests/css/bootstrap-theme.css">
+    <script>
+        var map;
+        function init() {
+            map=new OpenLayers.Map('map_element',{});
+            var wms_layer = new OpenLayers.Layer.WMS(
+                'OpenLayers WMS',
+                'http://vmap0.tiles.osgeo.org/wms/vmap0',
+                {layers: 'basic'},
+                {}
+            );
+            var vector_layer = new OpenLayers.Layer.Vector('Basic Vector Layer',{
+                renderers: ['Canvas', 'SVG', 'VML']
+            });
+            map.addLayers([wms_layer, vector_layer]);
+            map.addControl(new OpenLayers.Control.EditingToolbar(vector_layer));
+            if(!map.getCenter()){
+                map.zoomToMaxExtent();
+            }
+        }
+
+    </script>
+</head>
+<body onload='init();'>
+<div class="container">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <div id='map_element' style='height: 500px; width:400px;'></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+</body>
+</html>

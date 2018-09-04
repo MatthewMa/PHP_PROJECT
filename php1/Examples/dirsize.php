@@ -22,3 +22,9 @@ function dirSize($dir){
 }
 $path="G:".DIRECTORY_SEPARATOR."PHP".DIRECTORY_SEPARATOR."PHPSOFT".DIRECTORY_SEPARATOR."php7.0";
 echo "$path has size of ".round(dirSize($path)/pow(1024,1),2)."KB";
+$arr=array(
+    "name"=>"Matthew",
+    "age"=>27,
+    "stu_num"=>10069
+);
+print_r($arr);

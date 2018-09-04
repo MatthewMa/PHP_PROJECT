@@ -1,19 +1,10 @@
-div,span,p {
-	width:140px;
-	height:140px;
-	margin:5px;
-	background:#aaa;
-	border:#000 1px solid;
-	float:left;
-	font-size:17px;
-	font-family:Verdana;
-}
-div.mini { 
-	width:55px;
-	height:55px;
-	background-color: #aaa;
-	font-size:12px;
-}
-div.hide { 
-	display:none;
+*{margin:0;padding:0;}	
+body { font-size: 13px; line-height: 130%; padding: 60px }
+#panel { width: 300px; border: 1px solid #0050D0 }
+.head { height:24px;line-height:24px;text-indent:10px;background: #96E555; cursor: pointer;width:100%; }
+.content { padding: 10px; text-indent:24px; border-top: 1px solid #0050D0;display:block;display:none; }
+.highlight{background-color: #FF3300}
+.inner{
+    margin-top:40px;
+    background-color: #0f97ed;
 }

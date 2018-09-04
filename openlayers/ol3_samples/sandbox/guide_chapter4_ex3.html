@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My OpenLayers</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../assets/css/ol.css">
+    <link rel="stylesheet" href="../assets/css/guide_chapter2.css">
+    <script src="../assets/js/ol3-3.11.0/ol-debug.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+            <div id="map" class="map"></div>
+        </div>
+    </div>
+</div>
+<script>
+    var sourceBingMaps = new ol.source.BingMaps({
+        key: 'AibU6zHqoTPYDuNRtHPMJq557poKb9AVTIJ0NWWnNZf8LfoRRwoigHTQ0Frrsr5m',
+        imagerySet: 'Road',
+        culture: 'fr-FR'
+    });
+
+    var bingMapsRoad = new ol.layer.Tile({
+        preload: Infinity,
+        source: sourceBingMaps
+    });
+
+    var bingMapsAerial = new ol.layer.Tile({
+        preload: Infinity,
+        source: new ol.source.BingMaps({
+            key: 'AibU6zHqoTPYDuNRtHPMJq557poKb9AVTIJ0NWWnNZf8LfoRRwoigHTQ0Frrsr5m',
+            imagerySet: 'Aerial',
+        })
+    });
+
+    var map = new ol.Map({
+        layers: [bingMapsRoad,bingMapsAerial],
+        target: 'map',
+        view: new ol.View({
+            center: ol.proj.transform([6.562783, 46.517814], 'EPSG:4326', 'EPSG:3857'),
+            zoom: 13
+        })
+    });
+
+</script>
+</body>
+</html>
