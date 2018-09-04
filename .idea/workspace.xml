@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f80a8958-2ada-48ec-b4ff-27721a8e9c64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_addline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_addpoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_addpolygon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_deselect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_dragfeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_measure.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_modifyfeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_multiselect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_newvector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_removefeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_rocket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_snap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_vector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_wfs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_wms.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_zoom_extent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_zoom_layer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_zoom_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/glaciated.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/spearfish60_dem.tif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/switzerland_points_osm.geojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/university_of_pecs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/university_of_pecs_transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GIS/footprint/js/OpenLayers3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GIS/footprint/js/OpenLayers3_debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GIS/footprint/js/map_3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GIS/footprint/js/theme/default/ol.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GIS/footprint/sandbox/footprint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/assests/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/assests/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/assests/css/chapter7_style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/assests/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter10_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter3_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter4_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter4_ex2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter5_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter6_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter6_ex2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter7_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter8_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter8_ex2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter8_ex3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_selectFeature.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/ex5_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/flickr_data.kml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/map_application.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/ch01.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/ch02_css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/guide_chapter2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/myjs/ch01.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/myjs/ch02.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/ol3-3.11.0/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/ol3-3.11.0/ol-debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/ol3-3.11.0/ol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/ol3-3.11.0/proj4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/proj4js-2.3.10/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/proj4js-2.3.10/proj4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/rivers.topojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/rome_colosseum.osm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/spearfish60_dem.tif.aux.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/us_parks.kml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/world_capitals.geojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/assets/res/world_countries.geojson" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_basicfunctions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_simplemap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter2_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter2_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter5_ex1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter5_ex2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/offlinemap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php1/Jscript/sharpjquery/event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php1/Jscript/sharpjquery/fruit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php1/study/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php1/study/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php1/study/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php1/study/js/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php1/study/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php1/study/js/jquery-3.2.0.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/canvas/draggable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/canvas/images/garbagebin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/canvas/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/canvas/images/my.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/canvas/mycanvas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/canvas/tag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/canvas/tree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/form/fileInfo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/php1/prohtml/form/widget.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php1/Examples/Global.php" afterPath="$PROJECT_DIR$/php1/Examples/Global.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php1/Examples/dirsize.php" afterPath="$PROJECT_DIR$/php1/Examples/dirsize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php1/Examples/js/jsstu.js" afterPath="$PROJECT_DIR$/php1/Examples/js/jsstu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php1/Jscript/sharpjquery/css/style.css" afterPath="$PROJECT_DIR$/php1/Jscript/sharpjquery/css/style.css" />
+    </list>
+    <ignored path="WWW.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WWW" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="chapter1_basicfunctions.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_basicfunctions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="827">
+              <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XHTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/php1/Jscript/sharpjquery/css/style.css" />
+        <option value="$PROJECT_DIR$/php1/Jscript/sharpjquery/event.html" />
+        <option value="$PROJECT_DIR$/php1/prohtml/media/media.html" />
+        <option value="$PROJECT_DIR$/php1/study/index.html" />
+        <option value="$PROJECT_DIR$/php1/study/index.php" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/hello_openstreetmap.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/components.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/overlay.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter4_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter6_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter6_ex2.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/assests/css/style.css" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter7_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/assests/css/chapter7_style.css" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter8_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter8_ex2.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter8_ex3.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex3.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter10_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter3_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter3_ex2.html" />
+        <option value="$PROJECT_DIR$/GIS/footprint/js/theme/map3.0.js" />
+        <option value="$PROJECT_DIR$/GIS/footprint/map_3.js" />
+        <option value="$PROJECT_DIR$/GIS/footprint/js/map_3.js" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/samples.css" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/myjs/chapter1.js" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/offlinemap.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/myjs/ch01.js" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/ch02.css" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter2_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/assets/js/myjs/ch02.js" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/ch02_css.css" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex2.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex3.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter5_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/assets/css/guide_chapter2.css" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter5_ex2.html" />
+        <option value="$PROJECT_DIR$/GIS/footprint/sandbox/footprint.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter4_ex2.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex4.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter3_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter5_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_selectFeature.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex2.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol2_samples/sandbox/map_application.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter2_ex1.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_simplemap.html" />
+        <option value="$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_basicfunctions.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openlayers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openlayers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ol3_samples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openlayers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ol3_samples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openlayers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ol3_samples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openlayers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ol3_samples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ol3-3.11.0" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WWW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openlayers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ol3_samples" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="F:/GIS/server/wapp/apps" />
+    <property name="nodejs_interpreter_path" value="G:/PHP/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="G:\PHP\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\WWW\openlayers\ol3_samples\assets" />
+      <recent name="G:\WWW\openlayers\ol3_samples\assets\css" />
+      <recent name="G:\WWW\openlayers\ol3_samples\assets\ol3\js\ol3-3.11.0" />
+      <recent name="G:\WWW\php1\Jscript\image_galery" />
+      <recent name="G:\WWW\php1\Examples" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\WWW\openlayers\ol3_samples\assets\js\ol3-3.11.0" />
+      <recent name="G:\WWW\openlayers\ol3_samples\assets\js" />
+      <recent name="G:\WWW\openlayers\ol3_samples\sandbox" />
+      <recent name="G:\WWW\GIS\footprint\js\theme\default" />
+      <recent name="G:\WWW\GIS\footprint\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f80a8958-2ada-48ec-b4ff-27721a8e9c64" name="Default" comment="" />
+      <created>1471562276243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1471562276243</updated>
+      <workItem from="1471562279607" duration="502000" />
+      <workItem from="1471562801030" duration="73000" />
+      <workItem from="1471563664708" duration="189000" />
+      <workItem from="1471564114433" duration="12000" />
+      <workItem from="1471564245583" duration="30000" />
+      <workItem from="1471564315516" duration="503000" />
+      <workItem from="1471564950770" duration="39000" />
+      <workItem from="1471565063630" duration="260000" />
+      <workItem from="1471565377416" duration="3356000" />
+      <workItem from="1471626452041" duration="8332000" />
+      <workItem from="1471799939550" duration="1818000" />
+      <workItem from="1471886441887" duration="6172000" />
+      <workItem from="1472059920092" duration="1139000" />
+      <workItem from="1472142800498" duration="4747000" />
+      <workItem from="1472154480366" duration="11648000" />
+      <workItem from="1472228321268" duration="2759000" />
+      <workItem from="1472490539458" duration="13722000" />
+      <workItem from="1472573875519" duration="10614000" />
+      <workItem from="1472662707312" duration="609000" />
+      <workItem from="1472675067692" duration="1286000" />
+      <workItem from="1472748913552" duration="8404000" />
+      <workItem from="1472838608912" duration="8922000" />
+      <workItem from="1472918580185" duration="608000" />
+      <workItem from="1473102364826" duration="1192000" />
+      <workItem from="1473178774604" duration="15762000" />
+      <workItem from="1473260005973" duration="3664000" />
+      <workItem from="1473354045759" duration="16673000" />
+      <workItem from="1473436234137" duration="9552000" />
+      <workItem from="1473530254898" duration="3295000" />
+      <workItem from="1473609513279" duration="8803000" />
+      <workItem from="1473697648482" duration="19244000" />
+      <workItem from="1473739812451" duration="605000" />
+      <workItem from="1473788722792" duration="9339000" />
+      <workItem from="1473864981670" duration="946000" />
+      <workItem from="1473958203343" duration="1591000" />
+      <workItem from="1474045000286" duration="4510000" />
+      <workItem from="1475798020900" duration="37000" />
+      <workItem from="1477019672708" duration="977000" />
+      <workItem from="1477251964497" duration="5300000" />
+      <workItem from="1477321384247" duration="1899000" />
+      <workItem from="1477600412780" duration="8000" />
+      <workItem from="1477701201078" duration="752000" />
+      <workItem from="1477950971144" duration="617000" />
+      <workItem from="1477970426741" duration="644000" />
+      <workItem from="1478288765214" duration="34265000" />
+      <workItem from="1478538516966" duration="43000" />
+      <workItem from="1478538586638" duration="19915000" />
+      <workItem from="1478744178196" duration="4073000" />
+      <workItem from="1478903710456" duration="63903000" />
+      <workItem from="1479357449109" duration="37322000" />
+      <workItem from="1479579379998" duration="30291000" />
+      <workItem from="1480126675356" duration="16136000" />
+      <workItem from="1480433419047" duration="21790000" />
+      <workItem from="1480718014517" duration="3247000" />
+      <workItem from="1481064654063" duration="4316000" />
+      <workItem from="1481235210146" duration="3575000" />
+      <workItem from="1481256810929" duration="15661000" />
+      <workItem from="1485482604002" duration="517000" />
+      <workItem from="1485813698749" duration="88008000" />
+      <workItem from="1486433307604" duration="12531000" />
+      <workItem from="1492008936429" duration="1658000" />
+      <workItem from="1492050616474" duration="264000" />
+      <workItem from="1492195627884" duration="10825000" />
+      <workItem from="1493312113343" duration="919000" />
+      <workItem from="1496600412449" duration="3231000" />
+      <workItem from="1496697684320" duration="9844000" />
+      <workItem from="1497627484562" duration="16634000" />
+      <workItem from="1497891475141" duration="34493000" />
+      <workItem from="1498490424059" duration="28476000" />
+      <workItem from="1498662822081" duration="11003000" />
+      <workItem from="1498748638322" duration="1161000" />
+      <workItem from="1498754281724" duration="4074000" />
+      <workItem from="1498837401585" duration="5775000" />
+      <workItem from="1498852981492" duration="1589000" />
+      <workItem from="1498862503552" duration="49000" />
+      <workItem from="1499267464694" duration="9540000" />
+      <workItem from="1499373954929" duration="623000" />
+      <workItem from="1499450944096" duration="147000" />
+      <workItem from="1499877154282" duration="4286000" />
+      <workItem from="1499889133249" duration="607000" />
+    </task>
+    <task id="LOCAL-00001" summary="add formcheck">
+      <created>1479424831065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1479424831065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add formcheck">
+      <created>1486392450791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486392450791</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add formcheck">
+      <created>1486392639157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486392639157</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="691945000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16145833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add formcheck" />
+    <option name="LAST_COMMIT_MESSAGE" value="add formcheck" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/lib/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/theme/default/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/js/ol3-3.11.0/ol.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/v3.0.0/apidoc/ol.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="9939" column="40" lean-forward="false" selection-start-line="9939" selection-start-column="40" selection-end-line="9939" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/js/proj4js-2.3.10/proj4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/res/button_addline.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/offlinemap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/res/world_capitals.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/js/myjs/ch01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/css/ch01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/js/myjs/ch02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="35" column="39" lean-forward="true" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/css/ch02_css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/data/countries.geojson">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55182">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter5_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/OpenLayers3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/OpenLayers3_debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/theme/default/ol.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter5_ex2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1204">
+          <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/css/guide_chapter2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/OpenLayers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3159">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/sandbox/footprint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28830">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/initial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21078">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GIS/footprint/js/map_3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/assests/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter4_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="70" column="56" lean-forward="true" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter4_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter3_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter4_ex2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter5_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter8_ex3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_selectFeature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="32" column="77" lean-forward="true" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter8_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1393">
+          <caret line="67" column="69" lean-forward="true" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/chapter9_ex2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="40" column="77" lean-forward="false" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/flickr_data.kml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4050">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/css/ol.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol2_samples/sandbox/map_application.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="92" column="19" lean-forward="false" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter2_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/js/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/js/ol3-3.11.0/proj4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/assets/js/ol3-3.11.0/ol-debug.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/guide_chapter2_ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_simplemap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openlayers/ol3_samples/sandbox/chapter1_basicfunctions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
